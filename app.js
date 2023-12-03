@@ -5,7 +5,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const axios = require('axios');
-
+const
 // Create an Express application
 const app = express();
 
@@ -193,6 +193,6 @@ app.post('/submitInquiry', async (req, res) => {
 
 // Start the Express server
 const port = 5000;
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log(`Server is running on http://localhost:${5000}`);
 });
