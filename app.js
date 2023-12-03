@@ -5,7 +5,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const axios = require('axios');
-const
+
 // Create an Express application
 const app = express();
 
