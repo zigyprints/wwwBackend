@@ -106,7 +106,7 @@ function returnHTML(data) {
 async function sendEmail(emailData) {
     try
     {
-        const response = await axios.post('http://email4320414842.canverro.com/send_email/', emailData, {
+        const response = await axios.post('https://email-service-awho.onrender.com/send_email/', emailData, {
             headers: {
                 'Content-Type': 'application/json',
             },
