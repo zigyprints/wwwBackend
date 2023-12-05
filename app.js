@@ -173,7 +173,7 @@ app.post('/submitInquiry', async (req, res) => {
         // Example usage:
         const emailData = {
             subject: 'New Feedback received',
-            to_email: 'zigyprints@gmail.com',
+            to_email: 'purchase.canverro@gmail.com',
             message: html,
             html_body: html,
         };
