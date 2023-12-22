@@ -106,7 +106,7 @@ function returnHTML(data) {
 async function sendEmail(emailData) {
     try
     {
-        const response = await axios.post('https://email-service-ksqu.onrender.com/send_email/', emailData, {
+        const response = await axios.post('https://email-service-ewc0.onrender.com/send_email/', emailData, {
             headers: {
                 'Content-Type': 'application/json',
             },
